@@ -1,0 +1,10 @@
+---
+vms:
+- name: master
+  box: centos-64-x64-vbox4210-nocm
+  roles:
+  - pe-puppet-master
+- name: first
+  box: centos-64-x64-vbox4210-nocm
+  roles:
+  - pe-puppet-agent
